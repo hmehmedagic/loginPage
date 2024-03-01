@@ -1,0 +1,71 @@
+.login {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.loginContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.profilePic {
+    position: relative;
+    height: 50px;
+    width: 100%;
+    margin-top: 30%;
+}
+
+.loginTxt {
+    position: relative;
+    width: 100%;
+    margin-left: 23px;
+}
+
+.signUpTxt {
+    position: relative;
+    width: 100%;
+    margin-left: 15px;
+}
+
+.emailAndPass {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.emailAndPassContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.emailTxt,
+.passTxt {
+    position: relative;
+    width: 100%;
+}
+
+.loginBtn,
+.signUpBtn {
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+    height: 30px;
+}
+
+#myAccount {
+    background-color: rgb(98, 160, 253);
+    color: white;
+    width: 5%;
+    border-radius: 3px;
+    border-color: rgb(98, 160, 253);
+}
+
+a {
+    text-decoration: none;
+}
+
+.buffer {
+    height: 15px;
+}
